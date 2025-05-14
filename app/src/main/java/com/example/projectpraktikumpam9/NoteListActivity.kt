@@ -27,7 +27,7 @@ class NoteListActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
 
         userId = FirebaseAuth.getInstance().currentUser?.uid ?: ""
-        databaseRef = FirebaseDatabase.getInstance().getReference("notes").child(userId)
+        databaseRef = FirebaseDatabase.getInstance("https://pam-modul-9-b2394-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("notes").child(userId)
 
         fetchNotes()
     }

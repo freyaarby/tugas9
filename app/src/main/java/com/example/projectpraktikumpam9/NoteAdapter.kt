@@ -42,7 +42,7 @@ class NoteAdapter(
 
         holder.btnDelete.setOnClickListener {
             val userId = FirebaseAuth.getInstance().currentUser?.uid
-            val dbRef = FirebaseDatabase.getInstance().getReference("notes").child(userId ?: "")
+            val dbRef = FirebaseDatabase.getInstance("https://pam-modul-9-b2394-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("notes").child(userId ?: "")
             dbRef.child(note.id ?: "").removeValue()
             Toast.makeText(context, "Catatan dihapus", Toast.LENGTH_SHORT).show()
         }

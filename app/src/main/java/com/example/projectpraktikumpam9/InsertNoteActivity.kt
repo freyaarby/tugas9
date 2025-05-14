@@ -38,7 +38,7 @@ class InsertNoteActivity : AppCompatActivity(), View.OnClickListener {
 
         // Inisialisasi Firebase
         mAuth = FirebaseAuth.getInstance()
-        databaseReference = FirebaseDatabase.getInstance().reference
+        databaseReference = FirebaseDatabase.getInstance("https://pam-modul-9-b2394-default-rtdb.asia-southeast1.firebasedatabase.app/").reference
 
         // Set listener tombol
         btnKeluar.setOnClickListener(this)

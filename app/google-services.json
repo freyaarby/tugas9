@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "931330563025",
-    "project_id": "projectpraktikumpam9-fc08e",
-    "storage_bucket": "projectpraktikumpam9-fc08e.firebasestorage.app"
+    "project_number": "673344304579",
+    "project_id": "pam-modul-9-b2394",
+    "storage_bucket": "pam-modul-9-b2394.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:931330563025:android:3e1aa3c4ee25307ed51ef0",
+        "mobilesdk_app_id": "1:673344304579:android:18406dfcb96c384d62b976",
         "android_client_info": {
           "package_name": "com.example.projectpraktikumpam9"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "931330563025-6r1dh5dtpkiitsi8bn81ol5t7vqnjh29.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCa0kdGwS3lfY8uAozG9JLE73dTx9k3XbI"
+          "current_key": "AIzaSyA0GiuisYvABT19HAkJsWlSh3bsWfjlaaw"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "931330563025-6r1dh5dtpkiitsi8bn81ol5t7vqnjh29.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
